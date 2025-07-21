@@ -1,0 +1,51 @@
+@inherits LayoutComponentBase
+@inject IJSRuntime JS
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/custom-theme.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light" href="#">ServiceHub</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <NavLink class="nav-link custom-link" href="/#" @onclick="FecharMenu">Home</NavLink>
+        </li>
+        <li class="nav-item">
+          <NavLink class="nav-link custom-link" href="/Profile" @onclick="FecharMenu">Meu perfil</NavLink>
+        </li>
+        <li class="nav-item">
+          <NavLink class="nav-link custom-link" href="/Settings" @onclick="FecharMenu">Configurações</NavLink>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled text-muted" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+@Body
+
+<script>
+  window.fecharNavbar = () => {
+    var navbarCollapse = document.getElementById('navbarNav');
+    var bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+    if (bsCollapse) {
+      bsCollapse.hide();
+    }
+  };
+</script>
+
+@code {
+  async Task FecharMenu()
+  {
+    await JS.InvokeVoidAsync("fecharNavbar");
+  }
+}

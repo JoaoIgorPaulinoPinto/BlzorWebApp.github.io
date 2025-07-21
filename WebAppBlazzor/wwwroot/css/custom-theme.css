@@ -1,0 +1,37 @@
+/* custom-theme.css */
+body{
+  background-color: #1A1C1E;
+}
+/* Navbar com azul escuro elegante */
+.custom-navbar {
+  background-color: #1E3A8A; /* Azul escuro moderno */
+}
+
+/* Links padrão */
+.custom-link {
+  color: #F3F4F6 !important; /* Cinza claro para contraste com fundo escuro */
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+/* Links ao passar o mouse ou ativos */
+.custom-link:hover,
+.custom-link.active {
+  color: #1E3A8A !important; /* Azul escuro */
+  background-color: #E5E7EB !important; /* Cinza claro */
+  border-radius: 5px;
+}
+
+/* Marca da navbar */
+.navbar-brand {
+  color: #F3F4F6 !important; /* Branco acinzentado para destacar */
+}
+
+/* Botão toggler (menu mobile) */
+.navbar-toggler {
+  border-color: #93C5FD; /* Azul claro */
+}
+
+/* Ícone do toggler (menu hambúrguer) */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(243,244,246, 0.7)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
