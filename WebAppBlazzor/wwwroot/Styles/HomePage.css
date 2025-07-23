@@ -202,6 +202,16 @@ input:hover{
   -webkit-backdrop-filter: blur(50px);
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
 }
+
+.relogio::-webkit-datetime-edit-minute,
+.relogio::-moz-datetime-edit-minute {
+  background-color: black;
+  color: white;
+}
+.relogio:hover::-webkit-datetime-edit-minute {
+  background-color: black;
+  color: white;
+}
 /* #endregion */
 /* ========== CARD ========== */
 /* #region Card */
@@ -247,20 +257,30 @@ input:hover{
   flex-direction: column;
   justify-content: center;
   text-align: left;
-  width: 90%;
+  width: fit-content;
   color: #1A1C1E;
 }
 
 .Card-Frase {
   font-style: italic;
   font-size: small;
+  margin-left: 10px;
 }
 
 .Card-NomeUsuario {
-  font-size: medium;
+  font-size: large;
   font-weight: bold;
+  margin-left: 10px;
 }
-
+.Card-Endereco{
+  position: absolute;
+  font-size: 0.7rem;
+  font-weight: bold;
+  align-self: flex-end;
+  right: 0; 
+  top: 0;
+  margin: 10px;
+}
 .Card-Content button {
   align-self: center;
   background-color: #1A1C1E;

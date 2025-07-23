@@ -21,10 +21,10 @@
           }
         </ul>
       }
-    </div>      
+    </div>
     <!--ESCOLHA DE HORARIO DISPONIVEL-->
     <div class=" EscolheHorario">
-    <input type="time" id="horario" name="horario">
+      <input type="time" id="horario" name="horario">
     </div>
     <!-- ESCOLHA DE SERVICO -->
     <div class="Container Dropdown zindexme @(abrirDropdownServico ? "open" : "")">
@@ -55,8 +55,9 @@
           <div class="CardContainer">
             <img src="@c.imagemUrl" alt="imagem">
             <div class="Card-Content">
-              <div class="Card-NomeUsuario">João Silva</div>
-              <div class="Card-Frase">"Transformando estilos com atitude."</div>
+              <div class="Card-Endereco">3 horarios livres</div>
+              <div class="Card-NomeUsuario">@c.nome</div>
+              <div class="Card-Frase">"@c.frase"</div>
               @* <div class="Card-Horarios">3 horários livres</div> *@
             </div>
           </div>
@@ -124,98 +125,84 @@
       public string servico;
       public string cidade;
       public string frase;
-      public int horariosLivres;
+      public string endereco;
       public string imagemUrl;
       public string link;
 
-      public Usuario(string nome, string servico, string cidade, string frase, int horariosLivres, string imagemUrl, string
+      public Usuario(string nome, string servico, string cidade, string frase, string endereco, string imagemUrl, string
       link)
       {
         this.nome = nome;
         this.servico = servico;
         this.cidade = cidade;
         this.frase = frase;
-        this.horariosLivres = horariosLivres;
+        this.endereco = endereco;
         this.imagemUrl = imagemUrl;
         this.link = link;
       }
 
       public static List<Usuario> Usuarios = new List<Usuario>();
     }
-
     protected override void OnInitialized()
     {
       Usuario.Usuarios.Add(new Usuario(
-      "Maria Fernanda",
-      "Manicure/Pedicure",
-      "Boituva",
-      "Sua beleza começa nas unhas!",
-      5,
+      "Carlos Henrique",
+      "Cabelereiro/Barbeiro",
+      "Cerquilho",
+      "Transformando estilo com cada corte.",
+      "Rua das Flores, 123",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP4WsCZ045tVPeV6OjJqjVMH1MIBSgOYU2A&s",
-      "https://example.com/perfil-maria"
+      "https://example.com/perfil-carlos"
       ));
 
       Usuario.Usuarios.Add(new Usuario(
-      "Maria Fernanda",
-      "Manicure/Pedicure",
+      "Juliana Martins",
+      "Lava Autos",
       "Boituva",
-      "Sua beleza começa nas unhas!",
-      5,
+      "Seu carro limpo e reluzente em minutos!",
+      "Av. das Garagens, 98",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP4WsCZ045tVPeV6OjJqjVMH1MIBSgOYU2A&s",
-      "https://example.com/perfil-maria"
+      "https://example.com/perfil-juliana"
       ));
+
       Usuario.Usuarios.Add(new Usuario(
-      "Maria Fernanda",
+      "Amanda Souza",
       "Manicure/Pedicure",
-      "Boituva",
-      "Sua beleza começa nas unhas!",
-      5,
+      "Tietê",
+      "Estilo e cuidado na ponta dos dedos.",
+      "Rua das Unhas, 45",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP4WsCZ045tVPeV6OjJqjVMH1MIBSgOYU2A&s",
-      "https://example.com/perfil-maria"
+      "https://example.com/perfil-amanda"
       ));
+
       Usuario.Usuarios.Add(new Usuario(
-      "Maria Fernanda",
-      "Manicure/Pedicure",
-      "Boituva",
-      "Sua beleza começa nas unhas!",
-      5,
+      "Eduardo Lima",
+      "Hospedagem",
+      "Capivari",
+      "Conforto e tranquilidade no seu descanso.",
+      "Av. das Palmeiras, 111",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP4WsCZ045tVPeV6OjJqjVMH1MIBSgOYU2A&s",
-      "https://example.com/perfil-maria"
+      "https://example.com/perfil-eduardo"
       ));
+
       Usuario.Usuarios.Add(new Usuario(
-      "Maria Fernanda",
-      "Manicure/Pedicure",
-      "Boituva",
-      "Sua beleza começa nas unhas!",
-      5,
+      "Renata Oliveira",
+      "Psicologo",
+      "Rafard",
+      "Escuta e apoio para sua saúde emocional.",
+      "Rua da Esperança, 87",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP4WsCZ045tVPeV6OjJqjVMH1MIBSgOYU2A&s",
-      "https://example.com/perfil-maria"
+      "https://example.com/perfil-renata"
       ));
+
       Usuario.Usuarios.Add(new Usuario(
-      "Maria Fernanda",
-      "Manicure/Pedicure",
-      "Boituva",
-      "Sua beleza começa nas unhas!",
-      5,
+      "Felipe Silva",
+      "Massagem",
+      "Tatuí",
+      "Relaxamento completo com técnicas eficazes.",
+      "Av. do Bem-Estar, 222",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP4WsCZ045tVPeV6OjJqjVMH1MIBSgOYU2A&s",
-      "https://example.com/perfil-maria"
-      ));
-      Usuario.Usuarios.Add(new Usuario(
-      "Maria Fernanda",
-      "Manicure/Pedicure",
-      "Boituva",
-      "Sua beleza começa nas unhas!",
-      5,
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP4WsCZ045tVPeV6OjJqjVMH1MIBSgOYU2A&s",
-      "https://example.com/perfil-maria"
-      )); Usuario.Usuarios.Add(new Usuario(
-      "Maria Fernanda",
-      "Manicure/Pedicure",
-      "Boituva",
-      "Sua beleza começa nas unhas!",
-      5,
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP4WsCZ045tVPeV6OjJqjVMH1MIBSgOYU2A&s",
-      "https://example.com/perfil-maria"
+      "https://example.com/perfil-felipe"
       ));
     }
   }

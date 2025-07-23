@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QixWBBL+wcO5YpEXPqmYsCmePURQ2ytnUKA/ngRUs50=",
+  "Hash": "1RNMwez8T42FkDuJ9wJkxcC6W4kPMG1d4dP62HEjrSQ=",
   "Source": "WebAppBlazzor",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "0glnf3f8uh",
-      "Integrity": "UBcXocoMNoF7IHWXCGP2gUGnHK9/a3dAN8Hoyhqq+L8=",
+      "Fingerprint": "g6wjsyt2uv",
+      "Integrity": "qN2Alx065NFLf6gZBdJ2v4b2srxgYe4IBcpc630bJII=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -4252,8 +4252,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "rs0f9fs79j",
-      "Integrity": "y3Zv7n/OyXk0OuCt99LbH4fO/omoA7ke0dCh3/q9Ufg=",
+      "Fingerprint": "aum5azt2gd",
+      "Integrity": "HvchVMIM05DL7TdAuOr/8QUtm+0CcbeN0Nv9C1PLa6s=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\WebAppBlazzor.pdb"
@@ -4273,8 +4273,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "t05h36irlz",
-      "Integrity": "UzFG27jgKfSCTP0ZXj+lt9V/ZE/wZyVTkp8x9WIAX7M=",
+      "Fingerprint": "bqh7vt17j7",
+      "Integrity": "gzg2qPOnOHoT+0eBIhzVen8jWhXbikiHOx2gnuR+Wl4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\webcil\\WebAppBlazzor.wasm"
@@ -5225,12 +5225,12 @@
       "OriginalItemSpec": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Net.Security.wasm"
     },
     {
-      "Identity": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\5rfqm9jl28-t05h36irlz.gz",
+      "Identity": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\5rfqm9jl28-bqh7vt17j7.gz",
       "SourceId": "WebAppBlazzor",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/WebAppBlazzor#[.{fingerprint=t05h36irlz}]!.wasm.gz",
+      "RelativePath": "_framework/WebAppBlazzor#[.{fingerprint=bqh7vt17j7}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5239,8 +5239,8 @@
       "RelatedAsset": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WebAppBlazzor.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "67w2fwbfxl",
-      "Integrity": "fpH4ylAhmLa63BN4EZ/wSjfzrn7WMxXzWZvp2zGfp8c=",
+      "Fingerprint": "f89vuxxhzt",
+      "Integrity": "f5LQxTF2VmFJX/ljq4U3nTqmqO5c+56L+Bw9JIzeGvY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WebAppBlazzor.wasm"
@@ -7871,12 +7871,12 @@
       "OriginalItemSpec": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Security.Cryptography.Primitives.wasm"
     },
     {
-      "Identity": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\mmt4x9h4ee-nwd2bls6m1.gz",
+      "Identity": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\mmt4x9h4ee-4aymmmrhhz.gz",
       "SourceId": "WebAppBlazzor",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "Styles/HomePage#[.{fingerprint=nwd2bls6m1}]?.css.gz",
+      "RelativePath": "Styles/HomePage#[.{fingerprint=4aymmmrhhz}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7885,8 +7885,8 @@
       "RelatedAsset": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\wwwroot\\Styles\\HomePage.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "eumx64y780",
-      "Integrity": "5icYJe0h1wcyFG7o3SH7CmA5IpYqzaN7qA1WMqEoCXA=",
+      "Fingerprint": "bnfn4010w7",
+      "Integrity": "Cb2tpxneXS+aBt/EiOZIL3YC1dBvxdy4x0ZjzH/wTFE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\wwwroot\\Styles\\HomePage.css"
@@ -9047,7 +9047,7 @@
       "OriginalItemSpec": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\us7k06wah9-0glnf3f8uh.gz",
+      "Identity": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\us7k06wah9-g6wjsyt2uv.gz",
       "SourceId": "WebAppBlazzor",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\",
@@ -9061,8 +9061,8 @@
       "RelatedAsset": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "96yyhwz7q7",
-      "Integrity": "f/2FGjfucpDPicjlu+D+i6Yi9iOEK7WAsjS+LHED/f4=",
+      "Fingerprint": "53lwvrtnp3",
+      "Integrity": "wY2iuqufNXgFb0Ep3Ej//h71yi/JpugPencZwmj5bVM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -9257,12 +9257,12 @@
       "OriginalItemSpec": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Xml.XPath.XDocument.wasm"
     },
     {
-      "Identity": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\x8v9qrgyzw-rs0f9fs79j.gz",
+      "Identity": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\x8v9qrgyzw-aum5azt2gd.gz",
       "SourceId": "WebAppBlazzor",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/WebAppBlazzor#[.{fingerprint=rs0f9fs79j}]!.pdb.gz",
+      "RelativePath": "_framework/WebAppBlazzor#[.{fingerprint=aum5azt2gd}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9271,8 +9271,8 @@
       "RelatedAsset": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WebAppBlazzor.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "f9gp30eaae",
-      "Integrity": "k2ESJEUHg91Cm7aZ+toEL6bAPndENHI9k2wnKK1EsQY=",
+      "Fingerprint": "03wle2z88n",
+      "Integrity": "VCTfwtgd9pDvh8jVcgEYIC2nwq4xJyue4PPC64c+7Uc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WebAppBlazzor.pdb"
@@ -9593,12 +9593,12 @@
       "OriginalItemSpec": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Runtime.Serialization.wasm"
     },
     {
-      "Identity": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\zxzato0ilc-atw9kr7l0g.gz",
+      "Identity": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\zxzato0ilc-svaazddy9b.gz",
       "SourceId": "WebAppBlazzor",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "css/app#[.{fingerprint=atw9kr7l0g}]?.css.gz",
+      "RelativePath": "css/app#[.{fingerprint=svaazddy9b}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9607,8 +9607,8 @@
       "RelatedAsset": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\wwwroot\\css\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "h2xuzs3em3",
-      "Integrity": "6aVXXFKJkP9YYRCmoa/9Zi8sfgxj7Y20zF/1AILRLVw=",
+      "Fingerprint": "4l64gsi6wh",
+      "Integrity": "WJp/weh61p0ZfxjC65DqgitHHxBSJ7ybzOOp+Qc+HbM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\wwwroot\\css\\app.css"
@@ -9628,8 +9628,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "atw9kr7l0g",
-      "Integrity": "Xp77/uUgccdUEfu4JgnTxbWxjT5DByiCBAI4cUBqt6Y=",
+      "Fingerprint": "svaazddy9b",
+      "Integrity": "mPx/Ng7KhDNSlAO3dTHaXAZS42348EY9XoauLJMzdkU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
@@ -10699,8 +10699,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nwd2bls6m1",
-      "Integrity": "Ga4f0auyV8j3RVXQXQ8+xNh/lMjnRK/SEjzWK1NkJPc=",
+      "Fingerprint": "4aymmmrhhz",
+      "Integrity": "9Mqr4iU5auCAYOdLug9T5R6B1Tdca3tuuroGxwoRs2U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Styles\\HomePage.css"
@@ -10726,11 +10726,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UBcXocoMNoF7IHWXCGP2gUGnHK9/a3dAN8Hoyhqq+L8=\""
+          "Value": "\"qN2Alx065NFLf6gZBdJ2v4b2srxgYe4IBcpc630bJII=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:51 GMT"
+          "Value": "Wed, 23 Jul 2025 12:24:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10740,18 +10740,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UBcXocoMNoF7IHWXCGP2gUGnHK9/a3dAN8Hoyhqq+L8="
+          "Value": "sha256-qN2Alx065NFLf6gZBdJ2v4b2srxgYe4IBcpc630bJII="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\us7k06wah9-0glnf3f8uh.gz",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\us7k06wah9-g6wjsyt2uv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081201786"
+          "Quality": "0.000081208381"
         }
       ],
       "ResponseHeaders": [
@@ -10761,15 +10761,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12314"
+          "Value": "12313"
         },
         {
           "Name": "ETag",
-          "Value": "\"f/2FGjfucpDPicjlu+D+i6Yi9iOEK7WAsjS+LHED/f4=\""
+          "Value": "\"wY2iuqufNXgFb0Ep3Ej//h71yi/JpugPencZwmj5bVM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 04:06:02 GMT"
+          "Value": "Wed, 23 Jul 2025 12:16:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10789,19 +10789,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"UBcXocoMNoF7IHWXCGP2gUGnHK9/a3dAN8Hoyhqq+L8=\""
+          "Value": "W/\"qN2Alx065NFLf6gZBdJ2v4b2srxgYe4IBcpc630bJII=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UBcXocoMNoF7IHWXCGP2gUGnHK9/a3dAN8Hoyhqq+L8="
+          "Value": "sha256-qN2Alx065NFLf6gZBdJ2v4b2srxgYe4IBcpc630bJII="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\us7k06wah9-0glnf3f8uh.gz",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\us7k06wah9-g6wjsyt2uv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10810,7 +10810,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12314"
+          "Value": "12313"
         },
         {
           "Name": "Content-Type",
@@ -10818,11 +10818,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"f/2FGjfucpDPicjlu+D+i6Yi9iOEK7WAsjS+LHED/f4=\""
+          "Value": "\"wY2iuqufNXgFb0Ep3Ej//h71yi/JpugPencZwmj5bVM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 04:06:02 GMT"
+          "Value": "Wed, 23 Jul 2025 12:16:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10840,7 +10840,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-f/2FGjfucpDPicjlu+D+i6Yi9iOEK7WAsjS+LHED/f4="
+          "Value": "sha256-wY2iuqufNXgFb0Ep3Ej//h71yi/JpugPencZwmj5bVM="
         }
       ]
     },
@@ -70284,7 +70284,7 @@
       ]
     },
     {
-      "Route": "_framework/WebAppBlazzor.pdb",
+      "Route": "_framework/WebAppBlazzor.aum5azt2gd.pdb",
       "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WebAppBlazzor.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -70294,7 +70294,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23836"
+          "Value": "24232"
         },
         {
           "Name": "Content-Type",
@@ -70302,148 +70302,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y3Zv7n/OyXk0OuCt99LbH4fO/omoA7ke0dCh3/q9Ufg=\""
+          "Value": "\"HvchVMIM05DL7TdAuOr/8QUtm+0CcbeN0Nv9C1PLa6s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-y3Zv7n/OyXk0OuCt99LbH4fO/omoA7ke0dCh3/q9Ufg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/WebAppBlazzor.pdb",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\x8v9qrgyzw-rs0f9fs79j.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000058088876"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17214"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"k2ESJEUHg91Cm7aZ+toEL6bAPndENHI9k2wnKK1EsQY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"y3Zv7n/OyXk0OuCt99LbH4fO/omoA7ke0dCh3/q9Ufg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-y3Zv7n/OyXk0OuCt99LbH4fO/omoA7ke0dCh3/q9Ufg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/WebAppBlazzor.pdb.gz",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\x8v9qrgyzw-rs0f9fs79j.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17214"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"k2ESJEUHg91Cm7aZ+toEL6bAPndENHI9k2wnKK1EsQY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-k2ESJEUHg91Cm7aZ+toEL6bAPndENHI9k2wnKK1EsQY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/WebAppBlazzor.rs0f9fs79j.pdb",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WebAppBlazzor.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23836"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"y3Zv7n/OyXk0OuCt99LbH4fO/omoA7ke0dCh3/q9Ufg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:50 GMT"
+          "Value": "Wed, 23 Jul 2025 12:24:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70453,7 +70316,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rs0f9fs79j"
+          "Value": "aum5azt2gd"
         },
         {
           "Name": "label",
@@ -70461,18 +70324,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-y3Zv7n/OyXk0OuCt99LbH4fO/omoA7ke0dCh3/q9Ufg="
+          "Value": "sha256-HvchVMIM05DL7TdAuOr/8QUtm+0CcbeN0Nv9C1PLa6s="
         }
       ]
     },
     {
-      "Route": "_framework/WebAppBlazzor.rs0f9fs79j.pdb",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\x8v9qrgyzw-rs0f9fs79j.gz",
+      "Route": "_framework/WebAppBlazzor.aum5azt2gd.pdb",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\x8v9qrgyzw-aum5azt2gd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000058088876"
+          "Quality": "0.000056860181"
         }
       ],
       "ResponseHeaders": [
@@ -70482,15 +70345,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17214"
+          "Value": "17586"
         },
         {
           "Name": "ETag",
-          "Value": "\"k2ESJEUHg91Cm7aZ+toEL6bAPndENHI9k2wnKK1EsQY=\""
+          "Value": "\"VCTfwtgd9pDvh8jVcgEYIC2nwq4xJyue4PPC64c+7Uc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:51 GMT"
+          "Value": "Wed, 23 Jul 2025 12:24:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70510,13 +70373,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"y3Zv7n/OyXk0OuCt99LbH4fO/omoA7ke0dCh3/q9Ufg=\""
+          "Value": "W/\"HvchVMIM05DL7TdAuOr/8QUtm+0CcbeN0Nv9C1PLa6s=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rs0f9fs79j"
+          "Value": "aum5azt2gd"
         },
         {
           "Name": "label",
@@ -70524,13 +70387,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-y3Zv7n/OyXk0OuCt99LbH4fO/omoA7ke0dCh3/q9Ufg="
+          "Value": "sha256-HvchVMIM05DL7TdAuOr/8QUtm+0CcbeN0Nv9C1PLa6s="
         }
       ]
     },
     {
-      "Route": "_framework/WebAppBlazzor.rs0f9fs79j.pdb.gz",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\x8v9qrgyzw-rs0f9fs79j.gz",
+      "Route": "_framework/WebAppBlazzor.aum5azt2gd.pdb.gz",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\x8v9qrgyzw-aum5azt2gd.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -70539,7 +70402,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17214"
+          "Value": "17586"
         },
         {
           "Name": "Content-Type",
@@ -70547,11 +70410,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k2ESJEUHg91Cm7aZ+toEL6bAPndENHI9k2wnKK1EsQY=\""
+          "Value": "\"VCTfwtgd9pDvh8jVcgEYIC2nwq4xJyue4PPC64c+7Uc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:51 GMT"
+          "Value": "Wed, 23 Jul 2025 12:24:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70569,7 +70432,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rs0f9fs79j"
+          "Value": "aum5azt2gd"
         },
         {
           "Name": "label",
@@ -70577,12 +70440,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-k2ESJEUHg91Cm7aZ+toEL6bAPndENHI9k2wnKK1EsQY="
+          "Value": "sha256-VCTfwtgd9pDvh8jVcgEYIC2nwq4xJyue4PPC64c+7Uc="
         }
       ]
     },
     {
-      "Route": "_framework/WebAppBlazzor.t05h36irlz.wasm",
+      "Route": "_framework/WebAppBlazzor.bqh7vt17j7.wasm",
       "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WebAppBlazzor.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -70592,7 +70455,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19733"
+          "Value": "20757"
         },
         {
           "Name": "Content-Type",
@@ -70600,11 +70463,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UzFG27jgKfSCTP0ZXj+lt9V/ZE/wZyVTkp8x9WIAX7M=\""
+          "Value": "\"gzg2qPOnOHoT+0eBIhzVen8jWhXbikiHOx2gnuR+Wl4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:50 GMT"
+          "Value": "Wed, 23 Jul 2025 12:24:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70614,7 +70477,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t05h36irlz"
+          "Value": "bqh7vt17j7"
         },
         {
           "Name": "label",
@@ -70622,18 +70485,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UzFG27jgKfSCTP0ZXj+lt9V/ZE/wZyVTkp8x9WIAX7M="
+          "Value": "sha256-gzg2qPOnOHoT+0eBIhzVen8jWhXbikiHOx2gnuR+Wl4="
         }
       ]
     },
     {
-      "Route": "_framework/WebAppBlazzor.t05h36irlz.wasm",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\5rfqm9jl28-t05h36irlz.gz",
+      "Route": "_framework/WebAppBlazzor.bqh7vt17j7.wasm",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\5rfqm9jl28-bqh7vt17j7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000117041199"
+          "Quality": "0.000110717449"
         }
       ],
       "ResponseHeaders": [
@@ -70643,15 +70506,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8543"
+          "Value": "9031"
         },
         {
           "Name": "ETag",
-          "Value": "\"fpH4ylAhmLa63BN4EZ/wSjfzrn7WMxXzWZvp2zGfp8c=\""
+          "Value": "\"f5LQxTF2VmFJX/ljq4U3nTqmqO5c+56L+Bw9JIzeGvY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:51 GMT"
+          "Value": "Wed, 23 Jul 2025 12:24:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70671,13 +70534,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"UzFG27jgKfSCTP0ZXj+lt9V/ZE/wZyVTkp8x9WIAX7M=\""
+          "Value": "W/\"gzg2qPOnOHoT+0eBIhzVen8jWhXbikiHOx2gnuR+Wl4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t05h36irlz"
+          "Value": "bqh7vt17j7"
         },
         {
           "Name": "label",
@@ -70685,13 +70548,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UzFG27jgKfSCTP0ZXj+lt9V/ZE/wZyVTkp8x9WIAX7M="
+          "Value": "sha256-gzg2qPOnOHoT+0eBIhzVen8jWhXbikiHOx2gnuR+Wl4="
         }
       ]
     },
     {
-      "Route": "_framework/WebAppBlazzor.t05h36irlz.wasm.gz",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\5rfqm9jl28-t05h36irlz.gz",
+      "Route": "_framework/WebAppBlazzor.bqh7vt17j7.wasm.gz",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\5rfqm9jl28-bqh7vt17j7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -70700,7 +70563,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8543"
+          "Value": "9031"
         },
         {
           "Name": "Content-Type",
@@ -70708,11 +70571,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fpH4ylAhmLa63BN4EZ/wSjfzrn7WMxXzWZvp2zGfp8c=\""
+          "Value": "\"f5LQxTF2VmFJX/ljq4U3nTqmqO5c+56L+Bw9JIzeGvY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:51 GMT"
+          "Value": "Wed, 23 Jul 2025 12:24:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70730,7 +70593,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t05h36irlz"
+          "Value": "bqh7vt17j7"
         },
         {
           "Name": "label",
@@ -70738,7 +70601,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fpH4ylAhmLa63BN4EZ/wSjfzrn7WMxXzWZvp2zGfp8c="
+          "Value": "sha256-f5LQxTF2VmFJX/ljq4U3nTqmqO5c+56L+Bw9JIzeGvY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/WebAppBlazzor.pdb",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\bin\\Debug\\net9.0\\wwwroot\\_framework\\WebAppBlazzor.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HvchVMIM05DL7TdAuOr/8QUtm+0CcbeN0Nv9C1PLa6s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Jul 2025 12:24:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HvchVMIM05DL7TdAuOr/8QUtm+0CcbeN0Nv9C1PLa6s="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/WebAppBlazzor.pdb",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\x8v9qrgyzw-aum5azt2gd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000056860181"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17586"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VCTfwtgd9pDvh8jVcgEYIC2nwq4xJyue4PPC64c+7Uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Jul 2025 12:24:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HvchVMIM05DL7TdAuOr/8QUtm+0CcbeN0Nv9C1PLa6s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HvchVMIM05DL7TdAuOr/8QUtm+0CcbeN0Nv9C1PLa6s="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/WebAppBlazzor.pdb.gz",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\x8v9qrgyzw-aum5azt2gd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17586"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VCTfwtgd9pDvh8jVcgEYIC2nwq4xJyue4PPC64c+7Uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Jul 2025 12:24:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VCTfwtgd9pDvh8jVcgEYIC2nwq4xJyue4PPC64c+7Uc="
         }
       ]
     },
@@ -70753,7 +70753,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19733"
+          "Value": "20757"
         },
         {
           "Name": "Content-Type",
@@ -70761,11 +70761,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UzFG27jgKfSCTP0ZXj+lt9V/ZE/wZyVTkp8x9WIAX7M=\""
+          "Value": "\"gzg2qPOnOHoT+0eBIhzVen8jWhXbikiHOx2gnuR+Wl4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:50 GMT"
+          "Value": "Wed, 23 Jul 2025 12:24:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70775,18 +70775,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UzFG27jgKfSCTP0ZXj+lt9V/ZE/wZyVTkp8x9WIAX7M="
+          "Value": "sha256-gzg2qPOnOHoT+0eBIhzVen8jWhXbikiHOx2gnuR+Wl4="
         }
       ]
     },
     {
       "Route": "_framework/WebAppBlazzor.wasm",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\5rfqm9jl28-t05h36irlz.gz",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\5rfqm9jl28-bqh7vt17j7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000117041199"
+          "Quality": "0.000110717449"
         }
       ],
       "ResponseHeaders": [
@@ -70796,15 +70796,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8543"
+          "Value": "9031"
         },
         {
           "Name": "ETag",
-          "Value": "\"fpH4ylAhmLa63BN4EZ/wSjfzrn7WMxXzWZvp2zGfp8c=\""
+          "Value": "\"f5LQxTF2VmFJX/ljq4U3nTqmqO5c+56L+Bw9JIzeGvY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:51 GMT"
+          "Value": "Wed, 23 Jul 2025 12:24:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70824,19 +70824,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"UzFG27jgKfSCTP0ZXj+lt9V/ZE/wZyVTkp8x9WIAX7M=\""
+          "Value": "W/\"gzg2qPOnOHoT+0eBIhzVen8jWhXbikiHOx2gnuR+Wl4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UzFG27jgKfSCTP0ZXj+lt9V/ZE/wZyVTkp8x9WIAX7M="
+          "Value": "sha256-gzg2qPOnOHoT+0eBIhzVen8jWhXbikiHOx2gnuR+Wl4="
         }
       ]
     },
     {
       "Route": "_framework/WebAppBlazzor.wasm.gz",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\5rfqm9jl28-t05h36irlz.gz",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\5rfqm9jl28-bqh7vt17j7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -70845,7 +70845,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8543"
+          "Value": "9031"
         },
         {
           "Name": "Content-Type",
@@ -70853,11 +70853,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fpH4ylAhmLa63BN4EZ/wSjfzrn7WMxXzWZvp2zGfp8c=\""
+          "Value": "\"f5LQxTF2VmFJX/ljq4U3nTqmqO5c+56L+Bw9JIzeGvY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:51 GMT"
+          "Value": "Wed, 23 Jul 2025 12:24:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -70875,7 +70875,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fpH4ylAhmLa63BN4EZ/wSjfzrn7WMxXzWZvp2zGfp8c="
+          "Value": "sha256-f5LQxTF2VmFJX/ljq4U3nTqmqO5c+56L+Bw9JIzeGvY="
         }
       ]
     },
@@ -71178,13 +71178,13 @@
       ]
     },
     {
-      "Route": "css/app.atw9kr7l0g.css",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\zxzato0ilc-atw9kr7l0g.gz",
+      "Route": "css/app.css",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\zxzato0ilc-svaazddy9b.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000484496124"
+          "Quality": "0.000484027106"
         }
       ],
       "ResponseHeaders": [
@@ -71194,19 +71194,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2063"
+          "Value": "2065"
         },
         {
           "Name": "ETag",
-          "Value": "\"6aVXXFKJkP9YYRCmoa/9Zi8sfgxj7Y20zF/1AILRLVw=\""
+          "Value": "\"WJp/weh61p0ZfxjC65DqgitHHxBSJ7ybzOOp+Qc+HbM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 03:56:16 GMT"
+          "Value": "Wed, 23 Jul 2025 12:12:39 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -71222,26 +71222,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Xp77/uUgccdUEfu4JgnTxbWxjT5DByiCBAI4cUBqt6Y=\""
+          "Value": "W/\"mPx/Ng7KhDNSlAO3dTHaXAZS42348EY9XoauLJMzdkU=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "atw9kr7l0g"
-        },
-        {
-          "Name": "label",
-          "Value": "css/app.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-Xp77/uUgccdUEfu4JgnTxbWxjT5DByiCBAI4cUBqt6Y="
+          "Value": "sha256-mPx/Ng7KhDNSlAO3dTHaXAZS42348EY9XoauLJMzdkU="
         }
       ]
     },
     {
-      "Route": "css/app.atw9kr7l0g.css",
+      "Route": "css/app.css",
       "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -71259,11 +71251,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Xp77/uUgccdUEfu4JgnTxbWxjT5DByiCBAI4cUBqt6Y=\""
+          "Value": "\"mPx/Ng7KhDNSlAO3dTHaXAZS42348EY9XoauLJMzdkU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 03:56:16 GMT"
+          "Value": "Wed, 23 Jul 2025 12:12:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mPx/Ng7KhDNSlAO3dTHaXAZS42348EY9XoauLJMzdkU="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css.gz",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\zxzato0ilc-svaazddy9b.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WJp/weh61p0ZfxjC65DqgitHHxBSJ7ybzOOp+Qc+HbM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Jul 2025 12:12:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WJp/weh61p0ZfxjC65DqgitHHxBSJ7ybzOOp+Qc+HbM="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.svaazddy9b.css",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\zxzato0ilc-svaazddy9b.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000484027106"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2065"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WJp/weh61p0ZfxjC65DqgitHHxBSJ7ybzOOp+Qc+HbM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Jul 2025 12:12:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mPx/Ng7KhDNSlAO3dTHaXAZS42348EY9XoauLJMzdkU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "svaazddy9b"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mPx/Ng7KhDNSlAO3dTHaXAZS42348EY9XoauLJMzdkU="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.svaazddy9b.css",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mPx/Ng7KhDNSlAO3dTHaXAZS42348EY9XoauLJMzdkU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Jul 2025 12:12:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71273,7 +71410,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "atw9kr7l0g"
+          "Value": "svaazddy9b"
         },
         {
           "Name": "label",
@@ -71281,13 +71418,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Xp77/uUgccdUEfu4JgnTxbWxjT5DByiCBAI4cUBqt6Y="
+          "Value": "sha256-mPx/Ng7KhDNSlAO3dTHaXAZS42348EY9XoauLJMzdkU="
         }
       ]
     },
     {
-      "Route": "css/app.atw9kr7l0g.css.gz",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\zxzato0ilc-atw9kr7l0g.gz",
+      "Route": "css/app.svaazddy9b.css.gz",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\zxzato0ilc-svaazddy9b.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71296,7 +71433,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2063"
+          "Value": "2065"
         },
         {
           "Name": "Content-Type",
@@ -71304,11 +71441,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6aVXXFKJkP9YYRCmoa/9Zi8sfgxj7Y20zF/1AILRLVw=\""
+          "Value": "\"WJp/weh61p0ZfxjC65DqgitHHxBSJ7ybzOOp+Qc+HbM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 03:56:16 GMT"
+          "Value": "Wed, 23 Jul 2025 12:12:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71326,7 +71463,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "atw9kr7l0g"
+          "Value": "svaazddy9b"
         },
         {
           "Name": "label",
@@ -71334,144 +71471,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6aVXXFKJkP9YYRCmoa/9Zi8sfgxj7Y20zF/1AILRLVw="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.css",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\zxzato0ilc-atw9kr7l0g.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000484496124"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2063"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6aVXXFKJkP9YYRCmoa/9Zi8sfgxj7Y20zF/1AILRLVw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 03:56:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Xp77/uUgccdUEfu4JgnTxbWxjT5DByiCBAI4cUBqt6Y=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Xp77/uUgccdUEfu4JgnTxbWxjT5DByiCBAI4cUBqt6Y="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.css",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\wwwroot\\css\\app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4271"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Xp77/uUgccdUEfu4JgnTxbWxjT5DByiCBAI4cUBqt6Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 03:56:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Xp77/uUgccdUEfu4JgnTxbWxjT5DByiCBAI4cUBqt6Y="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.css.gz",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\zxzato0ilc-atw9kr7l0g.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2063"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6aVXXFKJkP9YYRCmoa/9Zi8sfgxj7Y20zF/1AILRLVw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 03:56:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-6aVXXFKJkP9YYRCmoa/9Zi8sfgxj7Y20zF/1AILRLVw="
+          "Value": "sha256-WJp/weh61p0ZfxjC65DqgitHHxBSJ7ybzOOp+Qc+HbM="
         }
       ]
     },
@@ -85728,13 +85728,13 @@
       ]
     },
     {
-      "Route": "Styles/HomePage.css",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\mmt4x9h4ee-nwd2bls6m1.gz",
+      "Route": "Styles/HomePage.4aymmmrhhz.css",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\mmt4x9h4ee-4aymmmrhhz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000725689405"
+          "Quality": "0.000680272109"
         }
       ],
       "ResponseHeaders": [
@@ -85744,19 +85744,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1377"
+          "Value": "1469"
         },
         {
           "Name": "ETag",
-          "Value": "\"5icYJe0h1wcyFG7o3SH7CmA5IpYqzaN7qA1WMqEoCXA=\""
+          "Value": "\"Cb2tpxneXS+aBt/EiOZIL3YC1dBvxdy4x0ZjzH/wTFE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:40 GMT"
+          "Value": "Wed, 23 Jul 2025 12:24:29 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -85772,18 +85772,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Ga4f0auyV8j3RVXQXQ8+xNh/lMjnRK/SEjzWK1NkJPc=\""
+          "Value": "W/\"9Mqr4iU5auCAYOdLug9T5R6B1Tdca3tuuroGxwoRs2U=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "4aymmmrhhz"
+        },
+        {
+          "Name": "label",
+          "Value": "Styles/HomePage.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-Ga4f0auyV8j3RVXQXQ8+xNh/lMjnRK/SEjzWK1NkJPc="
+          "Value": "sha256-9Mqr4iU5auCAYOdLug9T5R6B1Tdca3tuuroGxwoRs2U="
         }
       ]
     },
     {
-      "Route": "Styles/HomePage.css",
+      "Route": "Styles/HomePage.4aymmmrhhz.css",
       "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\wwwroot\\Styles\\HomePage.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -85793,7 +85801,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5077"
+          "Value": "5506"
         },
         {
           "Name": "Content-Type",
@@ -85801,121 +85809,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ga4f0auyV8j3RVXQXQ8+xNh/lMjnRK/SEjzWK1NkJPc=\""
+          "Value": "\"9Mqr4iU5auCAYOdLug9T5R6B1Tdca3tuuroGxwoRs2U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ga4f0auyV8j3RVXQXQ8+xNh/lMjnRK/SEjzWK1NkJPc="
-        }
-      ]
-    },
-    {
-      "Route": "Styles/HomePage.css.gz",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\mmt4x9h4ee-nwd2bls6m1.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1377"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5icYJe0h1wcyFG7o3SH7CmA5IpYqzaN7qA1WMqEoCXA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-5icYJe0h1wcyFG7o3SH7CmA5IpYqzaN7qA1WMqEoCXA="
-        }
-      ]
-    },
-    {
-      "Route": "Styles/HomePage.nwd2bls6m1.css",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\mmt4x9h4ee-nwd2bls6m1.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000725689405"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1377"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5icYJe0h1wcyFG7o3SH7CmA5IpYqzaN7qA1WMqEoCXA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:40 GMT"
+          "Value": "Wed, 23 Jul 2025 12:18:24 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Ga4f0auyV8j3RVXQXQ8+xNh/lMjnRK/SEjzWK1NkJPc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nwd2bls6m1"
+          "Value": "4aymmmrhhz"
         },
         {
           "Name": "label",
@@ -85923,13 +85831,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Ga4f0auyV8j3RVXQXQ8+xNh/lMjnRK/SEjzWK1NkJPc="
+          "Value": "sha256-9Mqr4iU5auCAYOdLug9T5R6B1Tdca3tuuroGxwoRs2U="
         }
       ]
     },
     {
-      "Route": "Styles/HomePage.nwd2bls6m1.css",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\wwwroot\\Styles\\HomePage.css",
+      "Route": "Styles/HomePage.4aymmmrhhz.css.gz",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\mmt4x9h4ee-4aymmmrhhz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -85938,7 +85846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5077"
+          "Value": "1469"
         },
         {
           "Name": "Content-Type",
@@ -85946,56 +85854,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ga4f0auyV8j3RVXQXQ8+xNh/lMjnRK/SEjzWK1NkJPc=\""
+          "Value": "\"Cb2tpxneXS+aBt/EiOZIL3YC1dBvxdy4x0ZjzH/wTFE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nwd2bls6m1"
-        },
-        {
-          "Name": "label",
-          "Value": "Styles/HomePage.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ga4f0auyV8j3RVXQXQ8+xNh/lMjnRK/SEjzWK1NkJPc="
-        }
-      ]
-    },
-    {
-      "Route": "Styles/HomePage.nwd2bls6m1.css.gz",
-      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\mmt4x9h4ee-nwd2bls6m1.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1377"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5icYJe0h1wcyFG7o3SH7CmA5IpYqzaN7qA1WMqEoCXA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 05:02:40 GMT"
+          "Value": "Wed, 23 Jul 2025 12:24:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -86013,7 +85876,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nwd2bls6m1"
+          "Value": "4aymmmrhhz"
         },
         {
           "Name": "label",
@@ -86021,7 +85884,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5icYJe0h1wcyFG7o3SH7CmA5IpYqzaN7qA1WMqEoCXA="
+          "Value": "sha256-Cb2tpxneXS+aBt/EiOZIL3YC1dBvxdy4x0ZjzH/wTFE="
+        }
+      ]
+    },
+    {
+      "Route": "Styles/HomePage.css",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\mmt4x9h4ee-4aymmmrhhz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000680272109"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1469"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cb2tpxneXS+aBt/EiOZIL3YC1dBvxdy4x0ZjzH/wTFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Jul 2025 12:24:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9Mqr4iU5auCAYOdLug9T5R6B1Tdca3tuuroGxwoRs2U=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Mqr4iU5auCAYOdLug9T5R6B1Tdca3tuuroGxwoRs2U="
+        }
+      ]
+    },
+    {
+      "Route": "Styles/HomePage.css",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\wwwroot\\Styles\\HomePage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Mqr4iU5auCAYOdLug9T5R6B1Tdca3tuuroGxwoRs2U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Jul 2025 12:18:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Mqr4iU5auCAYOdLug9T5R6B1Tdca3tuuroGxwoRs2U="
+        }
+      ]
+    },
+    {
+      "Route": "Styles/HomePage.css.gz",
+      "AssetFile": "C:\\Users\\Joao\\Documents\\WebProjects\\BlzorWebApp.github.io\\WebAppBlazzor\\obj\\Debug\\net9.0\\compressed\\mmt4x9h4ee-4aymmmrhhz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1469"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cb2tpxneXS+aBt/EiOZIL3YC1dBvxdy4x0ZjzH/wTFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Jul 2025 12:24:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cb2tpxneXS+aBt/EiOZIL3YC1dBvxdy4x0ZjzH/wTFE="
         }
       ]
     }
