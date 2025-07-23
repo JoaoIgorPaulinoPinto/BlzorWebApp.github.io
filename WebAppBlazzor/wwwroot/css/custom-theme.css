@@ -1,37 +1,70 @@
-/* custom-theme.css */
-body{
-  background-color: #1A1C1E;
-}
-/* Navbar com azul escuro elegante */
+/* ========== NAVBAR ========== */
 .custom-navbar {
-  background-color: #1E3A8A; /* Azul escuro moderno */
+  position: relative;
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.7); /* Consistente com Dropdown/Card */
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  border-radius: 0px 0px 20px 20px;
+  color: #1A1C1E;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
 }
-
-/* Links padrão */
-.custom-link {
-  color: #F3F4F6 !important; /* Cinza claro para contraste com fundo escuro */
-  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-}
-
-/* Links ao passar o mouse ou ativos */
-.custom-link:hover,
-.custom-link.active {
-  color: #1E3A8A !important; /* Azul escuro */
-  background-color: #E5E7EB !important; /* Cinza claro */
-  border-radius: 5px;
+@keyframes pulse {
+  0%   { box-shadow: 0 0 0 rgba(0,0,0,0.0); }
+  100% { box-shadow: 0 0 30px rgba(0,0,0,0.4); }
 }
 
 /* Marca da navbar */
 .navbar-brand {
-  color: #F3F4F6 !important; /* Branco acinzentado para destacar */
+  color: #1A1C1E !important;
+  font-weight: bold;
+  font-size: 1.25rem;
+  user-select: none;
+}
+
+/* Links da navbar */
+.custom-link {
+  color: #1A1C1E !important;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.custom-link:hover{
+   background-color: #ffff !important;
+  color: #1A1C1E !important;
+   animation: pulse 0.3s ease-out 1 forwards;
+}
+.custom-link.active {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  color: #1A1C1E !important;
 }
 
 /* Botão toggler (menu mobile) */
 .navbar-toggler {
-  border-color: #93C5FD; /* Azul claro */
+  border: 2px solid #E5E7EB;
+  background: transparent;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  color: #1A1C1E;
 }
 
-/* Ícone do toggler (menu hambúrguer) */
+.navbar-toggler:hover {
+  border-color: #1A1C1E;
+}
+
+/* Ícone do toggler (hambúrguer) */
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(243,244,246, 0.7)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(26,28,30,0.85)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  width: 30px;
+  height: 30px;
+  display: inline-block;
 }

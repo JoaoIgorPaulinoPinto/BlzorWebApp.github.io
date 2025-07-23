@@ -1,64 +1,63 @@
 @page "/"
 <link rel="stylesheet" href="Styles/HomePage.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 
 <body>
+
   <!-- ESCOLHA DE LOCAL -->
-  <div class="Container Dropdown @(abrirDropdownLocal ? "open" : "")">
-    <button class="dropdown-button" type="button" @onclick="ToggleDropdownLocal">
-      @(!string.IsNullOrEmpty(local) ? local : "Local")
-    </button>
+  <div class="form-flex-container">
+    <div class="Container Dropdown  @(abrirDropdownLocal ? "open" : "")">
+      <button class="dropdown-button" type="button" @onclick="ToggleDropdownLocal">
+        @(!string.IsNullOrEmpty(local) ? local : "Local")
+      </button>
 
-    @if (abrirDropdownLocal)
-    {
-      <ul>
-        @foreach (var item in cidades)
-        {
-          <li>
-            <a href="#" @onclick="() => SelecionarLocal(item)">@item</a>
-          </li>
-        }
-      </ul>
-    }
+      @if (abrirDropdownLocal)
+      {
+        <ul class="zindexma">
+          @foreach (var item in cidades)
+          {
+            <li>
+              <a href="#" @onclick="() => SelecionarLocal(item)">@item</a>
+            </li>
+          }
+        </ul>
+      }
+    </div>      
+    <!--ESCOLHA DE HORARIO DISPONIVEL-->
+    <div class=" EscolheHorario">
+    <input type="time" id="horario" name="horario">
+    </div>
+    <!-- ESCOLHA DE SERVICO -->
+    <div class="Container Dropdown zindexme @(abrirDropdownServico ? "open" : "")">
+      <button class="dropdown-button" type="button" @onclick="ToggleDropdownServico">
+        @(!string.IsNullOrEmpty(servico) ? servico : "Serviço")
+      </button>
+
+      @if (abrirDropdownServico)
+      {
+        <ul class="zindexme">
+          @foreach (var item in servicos)
+          {
+            <li>
+              <a href="#" @onclick="() => SelecionarServico(item)">@item</a>
+            </li>
+          }
+        </ul>
+      }
+    </div>
   </div>
-
-  <!-- ESCOLHA DE SERVICO -->
-  <div class="Container Dropdown @(abrirDropdownServico ? "open" : "")">
-    <button class="dropdown-button" type="button" @onclick="ToggleDropdownServico">
-      @(!string.IsNullOrEmpty(servico) ? servico : "Serviço")
-    </button>
-
-    @if (abrirDropdownServico)
-    {
-      <ul>
-        @foreach (var item in servicos)
-        {
-          <li>
-            <a href="#" @onclick="() => SelecionarServico(item)">@item</a>
-          </li>
-        }
-      </ul>
-    }
-  </div>
-
   <div class="listagem">
     <!-- LISTAGEM DE SERVIÇOS -->
     @foreach (var c in Usuario.Usuarios)
     {
       if (c.cidade == local && c.servico == servico)
       {
-        <div class="Card">
-          <div class="Card-Titulo">@c.servico</div>
+        <div class="Card" type="Button">
           <div class="CardContainer">
             <img src="@c.imagemUrl" alt="imagem">
             <div class="Card-Content">
               <div class="Card-NomeUsuario">João Silva</div>
               <div class="Card-Frase">"Transformando estilos com atitude."</div>
-              <button type="button">Agendar</button>
-              <div class="Card-Horarios">3 horários livres</div>
+              @* <div class="Card-Horarios">3 horários livres</div> *@
             </div>
           </div>
         </div>
@@ -155,7 +154,7 @@
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP4WsCZ045tVPeV6OjJqjVMH1MIBSgOYU2A&s",
       "https://example.com/perfil-maria"
       ));
-    
+
       Usuario.Usuarios.Add(new Usuario(
       "Maria Fernanda",
       "Manicure/Pedicure",
@@ -165,7 +164,7 @@
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP4WsCZ045tVPeV6OjJqjVMH1MIBSgOYU2A&s",
       "https://example.com/perfil-maria"
       ));
-            Usuario.Usuarios.Add(new Usuario(
+      Usuario.Usuarios.Add(new Usuario(
       "Maria Fernanda",
       "Manicure/Pedicure",
       "Boituva",
@@ -174,7 +173,7 @@
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP4WsCZ045tVPeV6OjJqjVMH1MIBSgOYU2A&s",
       "https://example.com/perfil-maria"
       ));
-            Usuario.Usuarios.Add(new Usuario(
+      Usuario.Usuarios.Add(new Usuario(
       "Maria Fernanda",
       "Manicure/Pedicure",
       "Boituva",
@@ -183,7 +182,7 @@
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP4WsCZ045tVPeV6OjJqjVMH1MIBSgOYU2A&s",
       "https://example.com/perfil-maria"
       ));
-            Usuario.Usuarios.Add(new Usuario(
+      Usuario.Usuarios.Add(new Usuario(
       "Maria Fernanda",
       "Manicure/Pedicure",
       "Boituva",
@@ -192,7 +191,7 @@
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP4WsCZ045tVPeV6OjJqjVMH1MIBSgOYU2A&s",
       "https://example.com/perfil-maria"
       ));
-            Usuario.Usuarios.Add(new Usuario(
+      Usuario.Usuarios.Add(new Usuario(
       "Maria Fernanda",
       "Manicure/Pedicure",
       "Boituva",
@@ -201,7 +200,7 @@
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP4WsCZ045tVPeV6OjJqjVMH1MIBSgOYU2A&s",
       "https://example.com/perfil-maria"
       ));
-            Usuario.Usuarios.Add(new Usuario(
+      Usuario.Usuarios.Add(new Usuario(
       "Maria Fernanda",
       "Manicure/Pedicure",
       "Boituva",
@@ -209,7 +208,7 @@
       5,
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP4WsCZ045tVPeV6OjJqjVMH1MIBSgOYU2A&s",
       "https://example.com/perfil-maria"
-      ));      Usuario.Usuarios.Add(new Usuario(
+      )); Usuario.Usuarios.Add(new Usuario(
       "Maria Fernanda",
       "Manicure/Pedicure",
       "Boituva",

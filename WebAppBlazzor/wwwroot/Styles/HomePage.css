@@ -1,43 +1,65 @@
+
 /* ========== GLOBAL ========== */
+/* #region Global */
 * {
   box-sizing: border-box;
   font-family: sans-serif;
 }
 
-body{
-  background-color: #1A1C1E;
-
-  color: #D4D6D8;
+.zindexme {
+  z-index: 9;
 }
 
+.zindexma {
+  z-index: 10;
+}
+
+body {
+  background-color: #ffffff;
+  color: #1A1C1E;
+}
+
+/* ========== TYPOGRAPHY ========== */
 h1 {
   margin: 30px 0 10px;
-  color: #FFFFFF;
+  color: #1A1C1E;
 }
 
+/* ========== BUTTON ========== */
 button {
-  transition: background-color 0.3s ease, color 0.3s ease;
-  color: #FFFFFF;
+  color: #ffffff;
+  background-color: #1A1C1E;
   border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* ========== CONTAINER ========== */
-.Container {
-  display: flex;
-  margin-bottom: 20px;
+button:hover {
+  background-color: #3B3D40;
 }
-
+/* #endregion */
 /* ========== DROPDOWN ========== */
+/* #region DropDown */
+
 .Dropdown {
   position: relative;
   display: flex;
-  gap: 19px;
-  width: 100%;
+  flex-direction: column;
+  align-items: start;
+  justify-content: left;
+  width: fit-content;
+  margin: 5px;
+  color: #1A1C1E;
+}
+
+.Dropdown.active {
+  z-index: 999;
 }
 
 .dropdown-button {
   position: relative;
   padding-right: 25px;
+  color: #1A1C1E;
 }
 
 .dropdown-button::after {
@@ -48,18 +70,25 @@ button {
   transform: translateY(-50%);
   border: 5px solid transparent;
   border-top-color: #1A1C1E;
-  pointer-events: none;
+}
+
+
+.Dropdown button,
+.Dropdown input[type="text"],
+.Dropdown ul {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #E5E7EB;
+  border-radius: 100px;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
 }
 
 .Dropdown button {
-  width: 100%;
   color: #1A1C1E;
-  background-color: #D4D6D8;
-  border: 1px solid #3B82F6;
   padding: 6px 10px;
-  border-radius: 4px;
+  width: 250px;
   text-align: left;
-  cursor: pointer;
 }
 
 .Dropdown ul {
@@ -67,20 +96,25 @@ button {
   top: 100%;
   left: 0;
   right: 0;
+  display: none;
   max-height: 200px;
   overflow-y: auto;
-  background-color: #D4D6D8;
-  border: 1px solid #2563EB;
-  border-top: none;
-  display: none;
-  z-index: 999;
   list-style: none;
   margin: 0;
   padding: 0;
+  border-radius: 10px;
 }
 
 .Dropdown:hover ul,
 .Dropdown:focus-within ul {
+  display: block;
+}
+
+.Dropdown ul {
+  display: none;
+}
+
+.Dropdown.active ul {
   display: block;
 }
 
@@ -92,102 +126,161 @@ button {
 }
 
 .Dropdown li a:hover {
-  background-color: #2563EB;
-  color: #1A1C1E;
+  background-color: #1A1C1E;
+  color: #ffffff;
 }
 
 .Dropdown input[type="text"] {
-  width: 100%;
   padding: 6px;
-  border: 1px solid #3B82F6;
-  background-color: #D4D6D8;
-  color: #1A1C1E;
   margin-bottom: 5px;
-  border-radius: 4px;
+  color: #1A1C1E;
+  width: 300px;
+  border-radius: 100px;
 }
 
+/* Scrollbar */
 .Dropdown ul::-webkit-scrollbar {
   width: 8px;
 }
+
 .Dropdown ul::-webkit-scrollbar-thumb {
-  background-color: #3B82F6;
-  border-radius: 4px;
+  background-color: #1A1C1E;
+  border-radius: 10px;
 }
 
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.0);
+  }
+
+  100% {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  }
+}
+
+Button:hover {
+  animation: pulse 0.3s ease-out 1 forwards;
+}
+
+.Card:hover {
+  animation: pulse 0.3s ease-out 1 forwards;
+}
+
+.form-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  /* espaçamento entre os blocos */
+  justify-content: left;
+  align-items: center;
+  margin: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  flex: 1 1 auto;
+}
+input:hover{
+  animation: pulse 0.3s ease-out 1 forwards;
+}
+/* #endregion */
+/* ========== RELOGIO ========== */
+/* #region Relogio */
+.EscolheHorario input[type="time"] {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: fit-content;
+  padding: 6px 14px;
+  margin: 5px;
+
+  color: #1A1C1E;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #E5E7EB;
+  border-radius: 100px;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+}
+/* #endregion */
 /* ========== CARD ========== */
+/* #region Card */
+
+
+
 .Card {
+
   display: flex;
   flex-direction: column;
   width: 100%;
-  border-radius: 10px;
-  background-color: #D4D6D8;
-  min-height: 100px;
+  min-height: 50px;
   margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  color: #333;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  text-align: left;
 }
 
 .CardContainer {
   display: flex;
   flex-direction: row;
-  min-height: 100px;
-  max-height: 500px;
   width: 100%;
+  max-height: 100px;
 }
 
 .CardContainer img {
-  align-self: center;
   height: 90%;
-  max-height: 100px;
-  width: auto;
-  object-fit: cover;
+  max-height: 60px;
+  margin: 10px;
   border-radius: 100%;
-  margin: 10px 30px 10px 10px;
-  border: 2px solid #3B82F6;
+  object-fit: cover;
+  border: 2px solid #1A1C1E;
   flex-shrink: 0;
 }
 
 .Card-Content {
-  text-align: center;
-  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: left;
+  width: 90%;
   color: #1A1C1E;
-  margin: 10px;
 }
 
 .Card-Frase {
   font-style: italic;
-  color: #1A1C1E;
+  font-size: small;
 }
 
-.Card-Titulo {
-  background-color: #1A1C1E;
-  text-align: center;
-  font-size: 0.9rem;
+.Card-NomeUsuario {
+  font-size: medium;
   font-weight: bold;
-  padding: 4px 0;
-  color: #FFFFFF;
-  border-radius: 6px;
 }
 
 .Card-Content button {
   align-self: center;
-  border-radius: 5px;
-  background-color: #3B82F6;
-  color: #FFFFFF;
+  background-color: #1A1C1E;
+  color: #ffffff;
   padding: 5px 10px;
   width: 100%;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
 .Card-Content button:hover {
-  background-color: #2563EB;
-  color: #FFFFFF;
+  background-color: #3B3D40;
 }
-
-.listagem{
-background-color: #ecedef;
-border-radius: 10px;
-padding: 10px;
+/* #endregion */
+/* ========== LISTAGEM ========== */
+/* #region Listagem */
+.listagem {
+  align-self: center;
+  align-items: center;
+  margin: 10px;
+  margin-top: 20px;
 }
+/* #endregion */
